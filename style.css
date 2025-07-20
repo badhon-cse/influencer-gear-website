@@ -182,3 +182,28 @@ button > svg {
   font-weight: bold;
   color: #6c6c6c;
 }
+
+/* Footer styles */
+
+.footer {
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.footer-icons > svg {
+  height: 17px;
+  width: 17px;
+  fill: white;
+  padding: 10px;
+}
