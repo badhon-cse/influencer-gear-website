@@ -121,6 +121,7 @@ button > svg {
 .popular-collection {
   max-width: 1050px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .popular-collection-title {
@@ -157,4 +158,27 @@ button > svg {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+/* feature products styles */
+
+.features-product {
+  max-width: 1110px;
+  margin: 0 auto;
+  gap: 96px;
+  margin-bottom: 100px;
+}
+
+.feature-content {
+  max-width: 610px;
+}
+
+.feature-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.feature-description {
+  font-weight: bold;
+  color: #6c6c6c;
 }
