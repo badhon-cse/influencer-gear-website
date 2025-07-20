@@ -55,7 +55,7 @@ button > svg {
 }
 
 .brand {
-  font-size: 28px;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ button > svg {
 }
 
 .banner-title {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: bold;
 }
 
@@ -206,4 +206,92 @@ button > svg {
   width: 17px;
   fill: white;
   padding: 10px;
+}
+
+/* Media quaries */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .brand {
+    font-size: 1.6rem;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 260px;
+    height: 260px;
+    margin: 5px;
+  }
+
+  .camera {
+    width: 240px;
+    height: 240px;
+  }
+
+  .banner-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .banner-description {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .sponsor {
+    max-width: 275px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .sponsor img {
+    width: 50px;
+  }
+
+  .popular-collection-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+  }
+
+  .features-product {
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+
+  .feature-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .feature-description {
+    text-align: center;
+  }
+
+  .feature-image > img {
+    width: 300px;
+  }
+
+  .feature-image {
+    margin: 0 auto;
+  }
+
+  .features-product {
+    gap: 10px;
+  }
 }
