@@ -269,6 +269,10 @@ button > svg {
     margin: 10px;
   }
 
+  .popular-collection {
+    margin-bottom: 20px;
+  }
+
   .features-product {
     flex-direction: column-reverse;
     margin: 20px;
