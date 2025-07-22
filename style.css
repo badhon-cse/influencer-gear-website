@@ -273,6 +273,12 @@ button > svg {
     margin-bottom: 20px;
   }
 
+  .card-img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
   .features-product {
     flex-direction: column-reverse;
     margin: 20px;
